@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-wrapper {
+    background-color: #CFDFDF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    font-family: 'Josefin Sans';
+    background: linear-gradient(#315c9c, #0c2750);
+    padding: 24px 42px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 45px;
+    text-transform: uppercase;
+    box-shadow: 0px 16px 30px 2px #818a8b;
+    outline: none;
+}
+
+.btn-text-two,
+.btn:hover .btn-text-one {
+    display: none;
+}
+
+.btn:hover .btn-text-two {
+    display: block;
+}

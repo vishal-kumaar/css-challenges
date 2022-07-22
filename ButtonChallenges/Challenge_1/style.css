@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    position: relative;
+    background-color: #2998F3;
+    color: #fff;
+    padding: 12px 25px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.badge {
+    position: absolute;
+    top: -11px;
+    right: -11px;
+    text-align: center;
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
