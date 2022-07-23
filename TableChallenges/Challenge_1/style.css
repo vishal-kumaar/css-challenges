@@ -1,5 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 * {
-  font-family: "poppins", "verdana";
-  box-sizing: border-box;
+    font-family: "poppins", "verdana";
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.container::before {
+    content: "";
+    background: url("images/leaves.png") no-repeat top/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 19px;
+}
+
+.yo {
+    max-width: 40em;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 15px;
+    color: #fff;
+}
+
+input {
+    outline: none;
+    border: none;
+    color: #ffffff;
+    width: 150px;
+    height: 24px;
+    border-radius: 20px;
+}
+
+select {
+    font-size: 13px;
+}
+
+button {
+    background-color: #87ceeb;
+    border: none;
+    /* width: 320px; */
+    border-radius: 11px;
+    padding: 9px 138px;
 }
