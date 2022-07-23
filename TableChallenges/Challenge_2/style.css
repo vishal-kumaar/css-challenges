@@ -14,13 +14,13 @@ hr {
 
 table {
     text-align: center;
-    position: relative;
-    top: -20px;
+    position: absolute;
 }
 
 caption {
-    position: relative;
-    top: 360px;
+    position: absolute;
+    bottom: -30px;
+    left: 125px;
     font-weight: 600;
     font-size: 21px;
 }
