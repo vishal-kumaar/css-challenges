@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #140B5C;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #9b9898;
+    padding: 25px 123px 25px 108px;
+}
+
+.logo-details {
+    font-size: 30px;
+    color: white;
+}
+
+.media-icons .fab {
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    height: 37px;
+    width: 37px;
+    line-height: 37px;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+.fa-facebook-f {
+    background-color: #4267B2;
+}
+
+.fa-twitter {
+    background-color: #1EA1F1;
+}
+
+.fa-instagram {
+    background-color: #E12F6D;
+}
+
+.fa-linkedin-in {
+    background-color: #0277B5;
+}
+
+.fa-youtube {
+    background-color: #FF0000;
+}
+
+.link-boxes {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 20px 25px 20px;
+}
+
+li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.link_name {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    width: 33px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.input-box input[type="text"] {
+    color: #D0CEDF;
+    border: 1px solid #D0CEDF;
+    background-color: #140B5C;
+    opacity: 1;
+    outline: none;
+    border-radius: 4px;
+    width: 258px;
+    font-size: 17px;
+    padding: 8px 13px;
+}
+
+.input-box {
+    margin-right: 50px;
+}
+
+.input-box input[type="text"]::placeholder {
+    color: #D0CEDF;
+}
+
+.input-box input[type="button"] {
+    color: #140B5C;
+    background-color: #D0CEDF;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 9px 88px;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #D0CEDF;
+    font-size: 16px;
+}
+
+span {
+    color: #D0CEDF;
+}
+
+.bottom_text {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0F0844;
+    padding: 15px 123px 15px 105px;
+}
