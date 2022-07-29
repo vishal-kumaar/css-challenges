@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #DDDDDD;
+}
+
+.wrap {
+    width: fit-content;
+    margin: 100px auto 0 auto;
+}
+
+.nav {
+    position: relative;
+    background-color: #3D79D0;
+    width: fit-content;
+    padding: 15px 100px;
+    margin-left: 3.3em;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 25px;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 6px;
+    border-radius: 15px;
+    outline: none;
+}
+
+a:hover {
+    background-color: #FFA500;
+}
+
+.ribbon {
+    position: absolute;
+}
+
+.ribbon::before {
+    content: "";
+    position: relative;
+    left: -4px;
+    bottom: -1em;
+    display: block;
+    border: 1.55em solid #1C53C0;
+    border-left-width: 1.5em;
+    border-right-width: 3em;
+    border-left-color: transparent;
+    z-index: -1;
+}
+
+.ribbon::after {
+    content: "";
+    position: relative;
+    right: -56.4em;
+    display: block;
+    bottom: 2.1em;
+    border: 1.55em solid #1C53C0;
+    border-left-width: 3em;
+    border-right-width: 1.5em;
+    border-right-color: transparent;
+    z-index: -1;
+}
+
+.nav::before {
+    content: "";
+    position: absolute;
+    bottom: -1em;
+    left: 0;
+    display: block;
+    border-style: solid;
+    border-color: #04313F transparent transparent transparent;
+    border-width: 1em 0 0 1em;
+}
+
+.nav::after {
+    content: "";
+    position: absolute;
+    bottom: -1em;
+    right: 0;
+    display: block;
+    border-style: solid;
+    border-color: #04313F transparent transparent transparent;
+    border-width: 1em 1em 0 0;
+}

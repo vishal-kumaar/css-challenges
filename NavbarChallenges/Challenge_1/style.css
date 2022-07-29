@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 45vh auto;
+    width: fit-content;
+    background-color: #151B1F;
+    padding: 18px 25px;
+    border-radius: 15px;
+}
+
+.nav-item {
+    text-decoration: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #A7A397;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    color: #02F9B8;
+}
